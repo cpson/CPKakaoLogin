@@ -1,0 +1,40 @@
+PODS:
+  - CPKakaoLogin (0.1.1):
+    - KakaoOpenSDK
+  - KakaoOpenSDK (1.23.2):
+    - KakaoOpenSDK/KakaoCommon (= 1.23.2)
+    - KakaoOpenSDK/KakaoLink (= 1.23.2)
+    - KakaoOpenSDK/KakaoMessageTemplate (= 1.23.2)
+    - KakaoOpenSDK/KakaoNavi (= 1.23.2)
+    - KakaoOpenSDK/KakaoOpenSDK (= 1.23.2)
+    - KakaoOpenSDK/KakaoPlusFriend (= 1.23.2)
+  - KakaoOpenSDK/KakaoCommon (1.23.2)
+  - KakaoOpenSDK/KakaoLink (1.23.2):
+    - KakaoOpenSDK/KakaoCommon
+    - KakaoOpenSDK/KakaoMessageTemplate
+  - KakaoOpenSDK/KakaoMessageTemplate (1.23.2)
+  - KakaoOpenSDK/KakaoNavi (1.23.2):
+    - KakaoOpenSDK/KakaoCommon
+  - KakaoOpenSDK/KakaoOpenSDK (1.23.2):
+    - KakaoOpenSDK/KakaoMessageTemplate
+  - KakaoOpenSDK/KakaoPlusFriend (1.23.2):
+    - KakaoOpenSDK/KakaoCommon
+
+DEPENDENCIES:
+  - CPKakaoLogin (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - KakaoOpenSDK
+
+EXTERNAL SOURCES:
+  CPKakaoLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPKakaoLogin: 609044d180104f20bd81d735d00126d0213c2b8a
+  KakaoOpenSDK: 8d4179d841947c6cf0c0064a76e4fbd8dcb24a23
+
+PODFILE CHECKSUM: 7e08dfe0d4b51938a3ccf9846f46859c308729cb
+
+COCOAPODS: 1.9.3

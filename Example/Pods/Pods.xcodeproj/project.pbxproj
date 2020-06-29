@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		34706FC7AE50CA0C6CC9244C5454003A /* KakaoOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DC593E985D32F7F1BF744EBA93BC2C1D /* Build configuration list for PBXAggregateTarget "KakaoOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KakaoOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		21647F73D75A064A335E074D03111BDE /* Pods-CPKakaoLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480D4AF727451FDBCF8CD967BFCA875 /* Pods-CPKakaoLogin_Example-dummy.m */; };
+		2AA9AE89255B8728D3E481859A65147B /* CPKakaoLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB51350FA8224A4BC25F0787717BFD /* CPKakaoLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3286FF659BC5F135A4C27A47022514E5 /* CPKakaoLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96130ADA0CA81B3B31DF209689C50B8B /* CPKakaoLogin-dummy.m */; };
+		5D0BA525DB185540CF40100CF0374B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F8981BEDFE8A5B4714379A9748DCE60 /* CPKakaoLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C72AB1465C2E3179F417D9C4D1FE818 /* CPKakaoLogin.swift */; };
+		7D0BDAA11E03ABF38B1050C27AC5E67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A4EFCE464EFF5812E06A977EE939530B /* Pods-CPKakaoLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F348BB2C7D00169AD1D6FD89AC2BE623 /* Pods-CPKakaoLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5781D87C77C665A8F69190F4C64BE85 /* Pods-CPKakaoLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC145938D6F0C07C25BF72653EC03E /* Pods-CPKakaoLogin_Tests-dummy.m */; };
+		C827ED4A9C680F0399F277C81D745E08 /* Pods-CPKakaoLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B065235B287EDBAE582C17BB60244748 /* Pods-CPKakaoLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D2E644D2FAA92FCCFCA389D022B4AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2079D006A6B106C9731225442DEEF974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34706FC7AE50CA0C6CC9244C5454003A;
+			remoteInfo = KakaoOpenSDK;
+		};
+		8EA54CB4AC5C1C463192A45B8502A1DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34706FC7AE50CA0C6CC9244C5454003A;
+			remoteInfo = KakaoOpenSDK;
+		};
+		B97859B1BDF4A7609B3A4CA242BBE788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A066292DF7673BD48C62CCDC7AD92938;
+			remoteInfo = CPKakaoLogin;
+		};
+		D888D8C3BD900DA9691168B6CC0BB1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0F5F566C3E88191E2ACC516D0A3A9A;
+			remoteInfo = "Pods-CPKakaoLogin_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B9A772E91C8007F926C95CB684729A /* Pods_CPKakaoLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPKakaoLogin_Example.framework; path = "Pods-CPKakaoLogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032BEFF29D416B4BAA73332057683393 /* Pods-CPKakaoLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKakaoLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DEEB7C97EB2E629CE400856DCEAE12E /* Pods-CPKakaoLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKakaoLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CF95F28F56B4EE59E5703DA65939EB5 /* Pods-CPKakaoLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKakaoLogin_Example-Info.plist"; sourceTree = "<group>"; };
+		4A44FE25768CBE2F0DCA3BF122784C0C /* Pods-CPKakaoLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPKakaoLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B772090A8469EC86FA0F3566061BD63 /* CPKakaoLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPKakaoLogin-Info.plist"; sourceTree = "<group>"; };
+		5D8460183107DDAB02E0C3DC26BB31C5 /* Pods-CPKakaoLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKakaoLogin_Tests-Info.plist"; sourceTree = "<group>"; };
+		5FA950004AA5C306C4C40190AA348A67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		63F438A3C37290A7FD3EB68294AF3D66 /* Pods-CPKakaoLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPKakaoLogin_Tests.modulemap"; sourceTree = "<group>"; };
+		64AD3FBB19CED8A7780FD8D211F809CF /* Pods-CPKakaoLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPKakaoLogin_Example.modulemap"; sourceTree = "<group>"; };
+		6A91409DB0F6B10E36E0DF7828135FB5 /* KakaoPlusFriend.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoPlusFriend.framework; sourceTree = "<group>"; };
+		6C72AB1465C2E3179F417D9C4D1FE818 /* CPKakaoLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPKakaoLogin.swift; path = CPKakaoLogin/Classes/CPKakaoLogin.swift; sourceTree = "<group>"; };
+		6E8DC57F51322EADB1C6BC036CC359DA /* KakaoMessageTemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoMessageTemplate.framework; sourceTree = "<group>"; };
+		702FAC7FB51AA28E4079A5AD1B2BFF14 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		74BEF17C30D094376D1EED066FC8D0AD /* CPKakaoLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPKakaoLogin.framework; path = CPKakaoLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD6AC050BCDE274FD3713F474F78347 /* CPKakaoLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CPKakaoLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83E12CA1B9B1C26C7716C967A96E3CF6 /* KakaoOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		853A0C8E2ED5D1613EA3497D8E5038F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		87DF0BE62585741098C077C7CF49E569 /* Pods-CPKakaoLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKakaoLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		89FB51350FA8224A4BC25F0787717BFD /* CPKakaoLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPKakaoLogin-umbrella.h"; sourceTree = "<group>"; };
+		8B1CF05AC1AB1BE5A7B772A5A323F8CF /* CPKakaoLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPKakaoLogin-prefix.pch"; sourceTree = "<group>"; };
+		915D5A5C534B857F3219337700A9B63A /* Pods-CPKakaoLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKakaoLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9480D4AF727451FDBCF8CD967BFCA875 /* Pods-CPKakaoLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPKakaoLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		96130ADA0CA81B3B31DF209689C50B8B /* CPKakaoLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPKakaoLogin-dummy.m"; sourceTree = "<group>"; };
+		982F19D50447D28DD6F03196B16A8C13 /* Pods-CPKakaoLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPKakaoLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B82BA16B89871DC194145FEBAE70EF3 /* KakaoNavi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoNavi.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0CF1E217780BE2E3D7D95FEFE2A2992 /* CPKakaoLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPKakaoLogin.release.xcconfig; sourceTree = "<group>"; };
+		A25E2FB4878293BBB557908345A1F4D2 /* CPKakaoLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPKakaoLogin.debug.xcconfig; sourceTree = "<group>"; };
+		A92DE56B8CE1A0D05E31253B75264A55 /* KakaoOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		B065235B287EDBAE582C17BB60244748 /* Pods-CPKakaoLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPKakaoLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B22F1DCBB02483C9730AD678AA7ED681 /* Pods_CPKakaoLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPKakaoLogin_Tests.framework; path = "Pods-CPKakaoLogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1E246D0491F389BD41951B9A77872C /* Pods-CPKakaoLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKakaoLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC3AC6FBE92EE400BE113A634B0BB1BF /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoCommon.framework; sourceTree = "<group>"; };
+		D87D21B48D7C0D2FFD3494ABC167F2C9 /* KakaoLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoLink.framework; sourceTree = "<group>"; };
+		E238D5CC3B11C68F677277E388FEF314 /* CPKakaoLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPKakaoLogin.modulemap; sourceTree = "<group>"; };
+		E8BC145938D6F0C07C25BF72653EC03E /* Pods-CPKakaoLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPKakaoLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		F348BB2C7D00169AD1D6FD89AC2BE623 /* Pods-CPKakaoLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPKakaoLogin_Example-umbrella.h"; sourceTree = "<group>"; };
+		F58153CDA4CB5B51D61E82C2634E9BF7 /* Pods-CPKakaoLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKakaoLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF9EBE6D4A29AFB0348296451C43091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0BDAA11E03ABF38B1050C27AC5E67B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EC0AF37565DC9B4F10BF9CDB6D62F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D2E644D2FAA92FCCFCA389D022B4AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A607B5986D77E1913E0F73452FB625E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0BA525DB185540CF40100CF0374B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011F569F419E6C4E420184133B9224CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E238D5CC3B11C68F677277E388FEF314 /* CPKakaoLogin.modulemap */,
+				96130ADA0CA81B3B31DF209689C50B8B /* CPKakaoLogin-dummy.m */,
+				4B772090A8469EC86FA0F3566061BD63 /* CPKakaoLogin-Info.plist */,
+				8B1CF05AC1AB1BE5A7B772A5A323F8CF /* CPKakaoLogin-prefix.pch */,
+				89FB51350FA8224A4BC25F0787717BFD /* CPKakaoLogin-umbrella.h */,
+				A25E2FB4878293BBB557908345A1F4D2 /* CPKakaoLogin.debug.xcconfig */,
+				A0CF1E217780BE2E3D7D95FEFE2A2992 /* CPKakaoLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CPKakaoLogin";
+			sourceTree = "<group>";
+		};
+		0A3B0C1FA47BC6DE11767C4F86F2D86C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D87D21B48D7C0D2FFD3494ABC167F2C9 /* KakaoLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BCB61BBBB9919BD50CCEBAE78CA0F58 /* KakaoNavi */ = {
+			isa = PBXGroup;
+			children = (
+				20D2E0EF33D9F361F4865E90B9CF892A /* Frameworks */,
+			);
+			name = KakaoNavi;
+			sourceTree = "<group>";
+		};
+		18F82FCF0987E770DC5E0DD0DEF3B830 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58D6B76200F0CDC61CA4F48A667999D5 /* CPKakaoLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20A3955554747F1600887EC47082CC46 /* KakaoMessageTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				365D00498B13A390247C3DB1CC923097 /* Frameworks */,
+			);
+			name = KakaoMessageTemplate;
+			sourceTree = "<group>";
+		};
+		20D2E0EF33D9F361F4865E90B9CF892A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B82BA16B89871DC194145FEBAE70EF3 /* KakaoNavi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EE611BDDFA3A741E89126D76BDA8FE0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6AC050BCDE274FD3713F474F78347 /* CPKakaoLogin.podspec */,
+				853A0C8E2ED5D1613EA3497D8E5038F4 /* LICENSE */,
+				5FA950004AA5C306C4C40190AA348A67 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		365D00498B13A390247C3DB1CC923097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E8DC57F51322EADB1C6BC036CC359DA /* KakaoMessageTemplate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D371ABED50FF2B5FE6F4B02844FA759 /* KakaoPlusFriend */ = {
+			isa = PBXGroup;
+			children = (
+				FB26D50167EF9CA1A3E8812A2E5176D5 /* Frameworks */,
+			);
+			name = KakaoPlusFriend;
+			sourceTree = "<group>";
+		};
+		58D6B76200F0CDC61CA4F48A667999D5 /* CPKakaoLogin */ = {
+			isa = PBXGroup;
+			children = (
+				6C72AB1465C2E3179F417D9C4D1FE818 /* CPKakaoLogin.swift */,
+				2EE611BDDFA3A741E89126D76BDA8FE0 /* Pod */,
+				011F569F419E6C4E420184133B9224CA /* Support Files */,
+			);
+			name = CPKakaoLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		77FDEAA80C35BC4C7D8D24DA7ACB1BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74BEF17C30D094376D1EED066FC8D0AD /* CPKakaoLogin.framework */,
+				00B9A772E91C8007F926C95CB684729A /* Pods_CPKakaoLogin_Example.framework */,
+				B22F1DCBB02483C9730AD678AA7ED681 /* Pods_CPKakaoLogin_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FCEB9A054F3310FBF3D2A08221B281F /* KakaoCommon */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB650F26A7EFAF59B04736724D2D68 /* Frameworks */,
+			);
+			name = KakaoCommon;
+			sourceTree = "<group>";
+		};
+		8C1473F678DF3261E3561338F4C3B843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				702FAC7FB51AA28E4079A5AD1B2BFF14 /* KakaoOpenSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FBB650F26A7EFAF59B04736724D2D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3AC6FBE92EE400BE113A634B0BB1BF /* KakaoCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0886BE1D368DD58D1D66C4D68C963C0 /* KakaoLink */ = {
+			isa = PBXGroup;
+			children = (
+				0A3B0C1FA47BC6DE11767C4F86F2D86C /* Frameworks */,
+			);
+			name = KakaoLink;
+			sourceTree = "<group>";
+		};
+		B882A7A1A19468A266A120985BDF5F30 /* KakaoOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8C1473F678DF3261E3561338F4C3B843 /* Frameworks */,
+			);
+			name = KakaoOpenSDK;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEA0E632BEC1432550C3E07A8238A650 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83E12CA1B9B1C26C7716C967A96E3CF6 /* KakaoOpenSDK.debug.xcconfig */,
+				A92DE56B8CE1A0D05E31253B75264A55 /* KakaoOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KakaoOpenSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				18F82FCF0987E770DC5E0DD0DEF3B830 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E1E9B2D51A5226FEA02F07277BFE8FC4 /* Pods */,
+				77FDEAA80C35BC4C7D8D24DA7ACB1BB6 /* Products */,
+				E97539136D964AE22F5FBD5B8FA3E260 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E9B2D51A5226FEA02F07277BFE8FC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF6F5C7B549FCEBE88FEEFAAD34AFBB4 /* KakaoOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E97539136D964AE22F5FBD5B8FA3E260 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDCFB588DFA672059AE98140A53EE289 /* Pods-CPKakaoLogin_Example */,
+				EEF10C8FDDFE024818E3F90E7520EC86 /* Pods-CPKakaoLogin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EDCFB588DFA672059AE98140A53EE289 /* Pods-CPKakaoLogin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				64AD3FBB19CED8A7780FD8D211F809CF /* Pods-CPKakaoLogin_Example.modulemap */,
+				982F19D50447D28DD6F03196B16A8C13 /* Pods-CPKakaoLogin_Example-acknowledgements.markdown */,
+				F58153CDA4CB5B51D61E82C2634E9BF7 /* Pods-CPKakaoLogin_Example-acknowledgements.plist */,
+				9480D4AF727451FDBCF8CD967BFCA875 /* Pods-CPKakaoLogin_Example-dummy.m */,
+				3CF95F28F56B4EE59E5703DA65939EB5 /* Pods-CPKakaoLogin_Example-Info.plist */,
+				F348BB2C7D00169AD1D6FD89AC2BE623 /* Pods-CPKakaoLogin_Example-umbrella.h */,
+				87DF0BE62585741098C077C7CF49E569 /* Pods-CPKakaoLogin_Example.debug.xcconfig */,
+				0DEEB7C97EB2E629CE400856DCEAE12E /* Pods-CPKakaoLogin_Example.release.xcconfig */,
+			);
+			name = "Pods-CPKakaoLogin_Example";
+			path = "Target Support Files/Pods-CPKakaoLogin_Example";
+			sourceTree = "<group>";
+		};
+		EEF10C8FDDFE024818E3F90E7520EC86 /* Pods-CPKakaoLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63F438A3C37290A7FD3EB68294AF3D66 /* Pods-CPKakaoLogin_Tests.modulemap */,
+				4A44FE25768CBE2F0DCA3BF122784C0C /* Pods-CPKakaoLogin_Tests-acknowledgements.markdown */,
+				032BEFF29D416B4BAA73332057683393 /* Pods-CPKakaoLogin_Tests-acknowledgements.plist */,
+				E8BC145938D6F0C07C25BF72653EC03E /* Pods-CPKakaoLogin_Tests-dummy.m */,
+				5D8460183107DDAB02E0C3DC26BB31C5 /* Pods-CPKakaoLogin_Tests-Info.plist */,
+				B065235B287EDBAE582C17BB60244748 /* Pods-CPKakaoLogin_Tests-umbrella.h */,
+				915D5A5C534B857F3219337700A9B63A /* Pods-CPKakaoLogin_Tests.debug.xcconfig */,
+				BA1E246D0491F389BD41951B9A77872C /* Pods-CPKakaoLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-CPKakaoLogin_Tests";
+			path = "Target Support Files/Pods-CPKakaoLogin_Tests";
+			sourceTree = "<group>";
+		};
+		FB26D50167EF9CA1A3E8812A2E5176D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A91409DB0F6B10E36E0DF7828135FB5 /* KakaoPlusFriend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF6F5C7B549FCEBE88FEEFAAD34AFBB4 /* KakaoOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7FCEB9A054F3310FBF3D2A08221B281F /* KakaoCommon */,
+				B0886BE1D368DD58D1D66C4D68C963C0 /* KakaoLink */,
+				20A3955554747F1600887EC47082CC46 /* KakaoMessageTemplate */,
+				0BCB61BBBB9919BD50CCEBAE78CA0F58 /* KakaoNavi */,
+				B882A7A1A19468A266A120985BDF5F30 /* KakaoOpenSDK */,
+				3D371ABED50FF2B5FE6F4B02844FA759 /* KakaoPlusFriend */,
+				CEA0E632BEC1432550C3E07A8238A650 /* Support Files */,
+			);
+			name = KakaoOpenSDK;
+			path = KakaoOpenSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53825007F4A4B9593480EEBB6B946B17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C827ED4A9C680F0399F277C81D745E08 /* Pods-CPKakaoLogin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC5E7625E516DC042EE57A7DDADE32D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA9AE89255B8728D3E481859A65147B /* CPKakaoLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE8054A952C1A1EBDC8DE992FFEB36F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFCE464EFF5812E06A977EE939530B /* Pods-CPKakaoLogin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78B891A15ACF355545C08CF1C41249F8 /* Pods-CPKakaoLogin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDE6C407EBBC08110053304E305245C /* Build configuration list for PBXNativeTarget "Pods-CPKakaoLogin_Tests" */;
+			buildPhases = (
+				53825007F4A4B9593480EEBB6B946B17 /* Headers */,
+				3A6362A2001F03FD44575CDC4F7FB0E8 /* Sources */,
+				4EF9EBE6D4A29AFB0348296451C43091 /* Frameworks */,
+				23C6C99AB2E1DBFA4A2473E0DBC4016E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CDC90456C6D78B3316F2C046D48CFA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CPKakaoLogin_Tests";
+			productName = "Pods-CPKakaoLogin_Tests";
+			productReference = B22F1DCBB02483C9730AD678AA7ED681 /* Pods_CPKakaoLogin_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A066292DF7673BD48C62CCDC7AD92938 /* CPKakaoLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91544D92FA0B2417698BE90FB0B12F2D /* Build configuration list for PBXNativeTarget "CPKakaoLogin" */;
+			buildPhases = (
+				ACC5E7625E516DC042EE57A7DDADE32D /* Headers */,
+				C4D6C793D2DD71B1B5D4E5F0EB19E106 /* Sources */,
+				A607B5986D77E1913E0F73452FB625E0 /* Frameworks */,
+				94C37F9A4B54E48CC1C10DA631DD4405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5524A33D8FDE88C266F0942129947E /* PBXTargetDependency */,
+			);
+			name = CPKakaoLogin;
+			productName = CPKakaoLogin;
+			productReference = 74BEF17C30D094376D1EED066FC8D0AD /* CPKakaoLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB0F5F566C3E88191E2ACC516D0A3A9A /* Pods-CPKakaoLogin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE172CA9B4FC5E1CBD44E334E780E6C6 /* Build configuration list for PBXNativeTarget "Pods-CPKakaoLogin_Example" */;
+			buildPhases = (
+				BEE8054A952C1A1EBDC8DE992FFEB36F /* Headers */,
+				B380CFACDB6CA84F008F2F3602D16E0F /* Sources */,
+				70EC0AF37565DC9B4F10BF9CDB6D62F4 /* Frameworks */,
+				BD813D7DB57802E2B5FACE6B5AC7AE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A06AA1CAAE046B3EA08DA25B654B004 /* PBXTargetDependency */,
+				F5A1AEBB2777D7FC403409E47A869AC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CPKakaoLogin_Example";
+			productName = "Pods-CPKakaoLogin_Example";
+			productReference = 00B9A772E91C8007F926C95CB684729A /* Pods_CPKakaoLogin_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 77FDEAA80C35BC4C7D8D24DA7ACB1BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A066292DF7673BD48C62CCDC7AD92938 /* CPKakaoLogin */,
+				34706FC7AE50CA0C6CC9244C5454003A /* KakaoOpenSDK */,
+				FB0F5F566C3E88191E2ACC516D0A3A9A /* Pods-CPKakaoLogin_Example */,
+				78B891A15ACF355545C08CF1C41249F8 /* Pods-CPKakaoLogin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C6C99AB2E1DBFA4A2473E0DBC4016E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C37F9A4B54E48CC1C10DA631DD4405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD813D7DB57802E2B5FACE6B5AC7AE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A6362A2001F03FD44575CDC4F7FB0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5781D87C77C665A8F69190F4C64BE85 /* Pods-CPKakaoLogin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B380CFACDB6CA84F008F2F3602D16E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21647F73D75A064A335E074D03111BDE /* Pods-CPKakaoLogin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D6C793D2DD71B1B5D4E5F0EB19E106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3286FF659BC5F135A4C27A47022514E5 /* CPKakaoLogin-dummy.m in Sources */,
+				5F8981BEDFE8A5B4714379A9748DCE60 /* CPKakaoLogin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CDC90456C6D78B3316F2C046D48CFA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CPKakaoLogin_Example";
+			target = FB0F5F566C3E88191E2ACC516D0A3A9A /* Pods-CPKakaoLogin_Example */;
+			targetProxy = D888D8C3BD900DA9691168B6CC0BB1B8 /* PBXContainerItemProxy */;
+		};
+		5A06AA1CAAE046B3EA08DA25B654B004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CPKakaoLogin;
+			target = A066292DF7673BD48C62CCDC7AD92938 /* CPKakaoLogin */;
+			targetProxy = B97859B1BDF4A7609B3A4CA242BBE788 /* PBXContainerItemProxy */;
+		};
+		5B5524A33D8FDE88C266F0942129947E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoOpenSDK;
+			target = 34706FC7AE50CA0C6CC9244C5454003A /* KakaoOpenSDK */;
+			targetProxy = 8EA54CB4AC5C1C463192A45B8502A1DD /* PBXContainerItemProxy */;
+		};
+		F5A1AEBB2777D7FC403409E47A869AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoOpenSDK;
+			target = 34706FC7AE50CA0C6CC9244C5454003A /* KakaoOpenSDK */;
+			targetProxy = 2079D006A6B106C9731225442DEEF974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2FB923EE43389B314FCE7BB15CE90229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25E2FB4878293BBB557908345A1F4D2 /* CPKakaoLogin.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPKakaoLogin/CPKakaoLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPKakaoLogin/CPKakaoLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CPKakaoLogin/CPKakaoLogin.modulemap";
+				PRODUCT_MODULE_NAME = CPKakaoLogin;
+				PRODUCT_NAME = CPKakaoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3469D7F17148E1A33EB9967B792D5C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E12CA1B9B1C26C7716C967A96E3CF6 /* KakaoOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FABFCCBDD8648351A8CE7399B1143F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEEB7C97EB2E629CE400856DCEAE12E /* Pods-CPKakaoLogin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKakaoLogin_Example/Pods-CPKakaoLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKakaoLogin_Example/Pods-CPKakaoLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F8421649A2ACD20C9BCF323FB3CAA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CF1E217780BE2E3D7D95FEFE2A2992 /* CPKakaoLogin.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPKakaoLogin/CPKakaoLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPKakaoLogin/CPKakaoLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CPKakaoLogin/CPKakaoLogin.modulemap";
+				PRODUCT_MODULE_NAME = CPKakaoLogin;
+				PRODUCT_NAME = CPKakaoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B95E197049801508064F15E9AF8A76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DF0BE62585741098C077C7CF49E569 /* Pods-CPKakaoLogin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKakaoLogin_Example/Pods-CPKakaoLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKakaoLogin_Example/Pods-CPKakaoLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1C6524A621713CA00166D59ACE60E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915D5A5C534B857F3219337700A9B63A /* Pods-CPKakaoLogin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKakaoLogin_Tests/Pods-CPKakaoLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKakaoLogin_Tests/Pods-CPKakaoLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F0DC4A7F6AB6D299C83142F94DD203A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92DE56B8CE1A0D05E31253B75264A55 /* KakaoOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB7DEFAB4FBF4A945033679033236F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1E246D0491F389BD41951B9A77872C /* Pods-CPKakaoLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKakaoLogin_Tests/Pods-CPKakaoLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKakaoLogin_Tests/Pods-CPKakaoLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDE6C407EBBC08110053304E305245C /* Build configuration list for PBXNativeTarget "Pods-CPKakaoLogin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C6524A621713CA00166D59ACE60E35 /* Debug */,
+				FDB7DEFAB4FBF4A945033679033236F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91544D92FA0B2417698BE90FB0B12F2D /* Build configuration list for PBXNativeTarget "CPKakaoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB923EE43389B314FCE7BB15CE90229 /* Debug */,
+				4F8421649A2ACD20C9BCF323FB3CAA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE172CA9B4FC5E1CBD44E334E780E6C6 /* Build configuration list for PBXNativeTarget "Pods-CPKakaoLogin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B95E197049801508064F15E9AF8A76B /* Debug */,
+				3FABFCCBDD8648351A8CE7399B1143F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC593E985D32F7F1BF744EBA93BC2C1D /* Build configuration list for PBXAggregateTarget "KakaoOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3469D7F17148E1A33EB9967B792D5C51 /* Debug */,
+				F0DC4A7F6AB6D299C83142F94DD203A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
