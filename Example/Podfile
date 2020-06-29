@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CPKakaoLogin_Example' do
+  pod 'CPKakaoLogin', :path => '../'
+
+  target 'CPKakaoLogin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
