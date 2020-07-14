@@ -27,3 +27,5 @@ cpson, cbson@mtcom.co.kr
 ## License
 
 CPKakaoLogin is available under the MIT license. See the LICENSE file for more info.
+
+[LinkTest](https://ajucorporation.page.link/zRx8)
